@@ -4,7 +4,7 @@ module.exports = [
   {
     id: 1,
     title: 'Syndrome',
-    description: 'Nerd rage.',
+    description: '1337 N3RD R463.',
     url: 'http://img.lum.dolimg.com/v1/images/image_7b7a8d9b.jpeg'
   },
   {
