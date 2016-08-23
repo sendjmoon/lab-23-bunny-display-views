@@ -21,7 +21,7 @@ nav {
   font-family: $app-font-face;
 }
 
-h1 {
+h2 {
   width: 50%;
   height: 50px;
   margin-top: 0px;
@@ -74,6 +74,27 @@ nav a:hover {
   justify-content: space-around;
 }
 
+.mugshot-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fullsize-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .home-list-item {
   margin-bottom: 20px;
+}
+
+.mugshot-title {
+  font-size: 25px;
+  font-weight: bold;
 }
