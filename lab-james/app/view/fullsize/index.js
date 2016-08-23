@@ -1,6 +1,7 @@
 'use strict';
 
 const angular = require('angular');
+const isValidId = require('./valid_id_check.js');
 
 angular.module('imageApp')
   .controller('FullsizeController', [
@@ -15,7 +16,6 @@ function FullsizeController($rootScope, $routeParams, $location) {
   let id = $routeParams.id;
   fsc.images = $rootScope.imageData;
 
-  let isValidId = require('./valid_id_check.js');
   if (!isValidId(id, fsc)) $location.path('/error');
 
   fsc.image = fsc.images[id - 1];
