@@ -7,7 +7,7 @@ const angular = require('angular');
 const angular_route = require('angular-route');
 
 const rootData = require('./data/root_data.js');
-const config = require('./route/routes.js');
+const config = require('./routes/route.js');
 
 angular.module('imageApp', [angular_route]);
 angular.module('imageApp').run(['$rootScope', rootData]);
