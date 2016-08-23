@@ -36,7 +36,7 @@ imageApp.config(['$routeProvider', function($route) {
       controllerAs: 'ec'
     })
     .otherwise({
-      redirectTo: '/'
+      redirectTo: '/error'
     });
 }]);
 
