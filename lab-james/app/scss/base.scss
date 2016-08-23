@@ -8,6 +8,7 @@ html, body {
   height: 100%;
   background-color: $app-bg-primary-color;
   color: $app-font-primary-color;
+  font-family: $app-font-face;
 }
 
 nav {
@@ -59,5 +60,20 @@ a {
 
 a:hover {
   color: $app-font-secondary-color;
-  font-size: 20px;
+}
+
+nav a:hover {
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-list-item {
+  margin-bottom: 20px;
 }
