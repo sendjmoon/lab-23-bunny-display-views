@@ -20,11 +20,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: plugins,
-  sassLoader: {
-    includePaths: [`${__dirname}/app/scss/lib`]
-  },
   postcss: function() {
     return [autoprefixer];
+  },
+  sassLoader: {
+    includePaths: [`${__dirname}/app/scss/lib`]
   },
   module: {
     loaders: [
